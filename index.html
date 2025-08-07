@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hima Deepika Mannam</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="intro" id="intro">
+    <div class="intro-left"></div>
+    <div class="intro-right">
+      <h1><em>Hello,</em> I am <span>Hima!</span></h1>
+      <p class="tagline">Just a curious person who enjoys untangling data and building useful stuff.</p>
+      <button class="explore-button" onclick="showMainContent()">Explore more about me…</button>
+    </div>
+  </div>
+
+  <div id="main-content" style="display: none;">
+    <div class="nav-buttons">
+      <button onclick="showSection('about')">About</button>
+     <button onclick="showSection('experience')">Experience</button>
+      <button onclick="showSection('projects')">Projects</button>
+      <button onclick="showSection('research')">Research</button>
+      <button onclick="showSection('contact')">Contact</button>
+    </div>
+    <button id="back-button" onclick="goBackToIntro()">← Back to Home</button>
+
+    <div id="section-content"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
