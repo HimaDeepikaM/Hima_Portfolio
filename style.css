@@ -522,3 +522,80 @@ h1 span {
   font-weight: bold;
   margin-bottom: 10px;
 }
+
+.site-footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #fff7f0;
+  color: #963b1e;
+  font-size: 0.9rem;
+  border-top: 1px solid #e6cfc2;
+  margin-top: 3rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
+
+
+/* Top sticky header nav bar */
+.site-header {
+  background-color: #fff7f0;
+  border-bottom: 1px solid #e0c4b2;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 0.8rem 0;
+}
+
+/* Spread-out tab-style nav */
+.site-header {
+  width: 100%;
+  background-color: #fff6ed;
+  border-bottom: 1px solid #963b1e30;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  
+  font-family: 'Georgia', serif;
+}
+
+.nav-left, .nav-right {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #963b1e;
+  font-weight: normal; /* Not bold by default */
+  border-bottom: 2px solid transparent;
+  padding-bottom: 4px;
+  transition: all 0.2s ease;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid #963b1e;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: #801e00;
+  border-bottom: 2px solid #801e00;
+}
+
+/* Footer styles */
+.site-footer {
+  background-color: #fff7f0;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #963b1e;
+  border-top: 1px solid #e0c4b2;
+  margin-top: 3rem;
+}

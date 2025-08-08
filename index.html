@@ -5,7 +5,9 @@
   <title>Hima Deepika Mannam</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
+  <!-- INTRO SECTION -->
   <div class="intro" id="intro">
     <div class="intro-left"></div>
     <div class="intro-right">
@@ -15,18 +17,35 @@
     </div>
   </div>
 
+  <!-- MAIN CONTENT SECTION -->
   <div id="main-content" style="display: none;">
-    <div class="nav-buttons">
-      <button onclick="showSection('about')">About</button>
-     <button onclick="showSection('experience')">Experience</button>
-      <button onclick="showSection('projects')">Projects</button>
-      <button onclick="showSection('research')">Research</button>
-      <button onclick="showSection('contact')">Contact</button>
-    </div>
-    <button id="back-button" onclick="goBackToIntro()">← Back to Home</button>
 
+    <header class="site-header">
+  <div class="nav-bar">
+  <div class="nav-left">
+    <a href="#" class="nav-link" onclick="showSection('about', this)">About</a>
+    <a href="#" class="nav-link" onclick="showSection('experience', this)">Experience</a>
+    <a href="#" class="nav-link" onclick="showSection('projects', this)">Projects</a>
+    <a href="#" class="nav-link" onclick="showSection('research', this)">Research</a>
+    <a href="#" class="nav-link" onclick="showSection('contact', this)">Contact</a>
+  </div>
+  <div class="nav-right">
+    <a href="#" class="nav-link" onclick="goBackToIntro(this)">Return to Start</a>
+  </div>
+</div>
+
+</header>
+
+   
+
+    <!-- SECTION CONTENT -->
     <div id="section-content"></div>
   </div>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <p>&copy; 2025 Hima Deepika Mannam. All rights reserved.</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>

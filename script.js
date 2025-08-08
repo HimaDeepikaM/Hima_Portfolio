@@ -87,7 +87,7 @@ function showSection(section) {
         <p>Here are some of my favorite projects, each one started with a spark of curiosity or a fun idea!</p>
 
         <div class="project-row">
-          <img src="assets/n2.png" alt="Notes App" class="project-thumbnail">
+          <img src="assets/notes1.jpg" alt="Notes App" class="project-thumbnail">
           <div class="project-content">
             <h3>Notes App</h3>
             <p>What started as a fun weekend challenge turned into a clean, minimal notes app. I built it to quickly store ideas, thoughts and tasks without distractions.</p>
@@ -120,7 +120,7 @@ function showSection(section) {
           <img src="assets/sales.png" alt="Adventure Works Analysis" class="project-thumbnail">
           <div class="project-content">
             <h3>Adventure Works Analysis</h3>
-            <p>I simulated real-world business scenarios—from customer behavior to product sales—using dashboards and pipelines at scale.</p>
+            <p>I simulated real-world business scenarios, from customer behavior to product sales, using dashboards and pipelines at scale.</p>
             <p><strong>Tech Stack:</strong> Azure · PySpark · Power BI · Databricks</p>
             <a href="https://github.com/HimaDeepikaM/Adventure-Works" target="_blank">View on GitHub</a>
           </div>
@@ -154,6 +154,15 @@ function showSection(section) {
   };
 
   document.getElementById("section-content").innerHTML = content[section];
+
+
+
+
+    // Highlight active tab
+  const tabs = document.querySelectorAll(".nav-tabs a");
+  tabs.forEach(tab => tab.classList.remove("active"));
+  const clickedTab = Array.from(tabs).find(tab => tab.textContent.toLowerCase() === section);
+  if (clickedTab) clickedTab.classList.add("active");
 }
 
 function goBackToIntro() {
