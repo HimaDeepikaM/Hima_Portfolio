@@ -45,7 +45,7 @@ function showSection(section) {
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <h3>Software & IT Analyst</h3>
+                <h3>Data Analyst</h3>
                 <p>Deloitte USI</p>
               </div>
               <div class="flip-card-back">
@@ -69,7 +69,7 @@ function showSection(section) {
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <h3>Machine Learning Trainee</h3>
+                <h3>Machine Learning Analyst</h3>
                 <p>IIT Kharagpur – E-Cell</p>
               </div>
               <div class="flip-card-back">
@@ -142,6 +142,44 @@ function showSection(section) {
         </p>
       </div>
     `,
+    certifications: `
+  <div class="projects-section">
+    <h2>Certifications</h2>
+    <div class="project-row">
+      <img src="assets/pcap.webp" alt=" PCAP Certified Associate Python Programmer: Python Institute" class="project-thumbnail">
+      <div class="project-content">
+        <h3>PCAP Certified Associate Python Programmer</h3>
+        <p>Validated proficiency in core Python programming concepts including data structures, OOP, exception handling and file operations</p>
+        <strong>Credential ID:</strong>jUN9.0LX8.xoRB</p>
+      </div>
+    </div>
+    <div class="project-row">
+      <img src="assets/azure.png" alt="Azure Data Scientist" class="project-thumbnail">
+      <div class="project-content">
+        <h3>Microsoft Certified Azure Data Scientist Associate</h3>
+        <p>Built, trained and deployed machine learning models in Azure ML workspace using Python and MLflow.</p>
+       <strong>Credential ID:</strong>5D79D0C539589BD8</p>
+      </div>
+    </div>
+    <div class="project-row">
+      <img src="assets/awscp1.png" alt="AWS Cloud Practitioner" class="project-thumbnail">
+      <div class="project-content">
+        <h3>AWS Certified Cloud Practitioner</h3>
+        <p>Validated knowledge of cloud concepts, security and AWS core services.</p>
+        <strong>Credential ID:</strong>AWS04463804</p>
+      </div>
+    </div>
+    <div class="project-row">
+      <img src="assets/awsdec.webp" alt="AWS Data Engineer" class="project-thumbnail">
+      <div class="project-content">
+        <h3>AWS Certified Data Engineer Associate</h3>
+        <p>Demonstrated expertise in data lakes, pipelines, transformation and data governance on AWS.</p>
+        <strong>Credential ID:</strong> AWS04463804</p>
+      </div>
+    </div>
+    
+  </div>
+`,
 
     contact: `
       <div class="contact-section">
